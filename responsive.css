@@ -1,0 +1,253 @@
+/* desktop responsive */
+@media(max-width:1300px){
+    /* heading section start */
+    .heading{
+        text-align: left;
+        margin-top: 230px;
+        margin-left: 370px;
+        font-size: 28px;
+    }
+     .typewrite{
+                color: #343A40;
+                font-size: 42px;
+}
+.button{
+    margin-left: 372px ;
+    margin-top:16px;
+    padding:6px;
+    
+}
+.top_heading{
+position:unset;
+top:0;
+}
+/* heading section end */
+/* Qualification section start */
+.single_main{
+    margin-left:492px;
+}
+
+/* Qualification section end */
+}
+
+/* laptop responsive */
+@media(max-width:1100px){
+    /* heading section start */
+    .heading{
+        text-align: left;
+        margin-top: 230px;
+        margin-left: 370px;
+        font-size: 28px;
+    }
+     .typewrite{
+                color: #343A40;
+                font-size: 42px;
+}
+.button{
+    margin-left: 372px ;
+    margin-top:16px;
+    padding:6px;
+    
+}
+.top_heading{
+position:unset;
+top:0;
+}
+/* heading section end */
+/* Qualification section start */
+.single_main{
+    margin-left:402px;
+}
+}
+/* Qualification section end */
+
+/* tablet responsive */
+@media(max-width:850px){
+    /* heading section start */
+    .main_heading {
+        background: linear-gradient(#49bcff82,#8d272794),url(image/header\ picture.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        width: 829px;
+    }
+    .form-control{
+        width:300px;
+    }
+    .dropdown-menu{
+        width: 230px;
+        height: 90px;
+        background:white;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .dropdown-item{
+        color:black;
+        border-bottom: 2px solid black;
+        height: 30px;
+        padding:5px;
+    }
+
+    .dropdown-item:hover{
+        color:white;
+        background:#343A40;
+    }
+    .heading{
+        text-align: left;
+        margin-top: 171px;
+        margin-left: 181px;
+        font-size: 27px
+    }
+     .typewrite{
+                color: #343A40;
+                font-size: 39px;
+}
+.button{
+    margin-left: 182px ;
+    margin-top:16px;
+    padding:6px;
+}
+/* heading section end */
+/* skill bar design start */
+.skills-container{
+    padding-right:0px;
+    margin-left: 0px;   
+}
+/* skill bar design end */
+/* Qualification section start */
+.single_main{
+    margin-left:0px;
+}
+.q_section_single{
+    margin:auto;
+}
+
+/* Qualification section end */
+/* Price plan section Start */
+.price_project{
+    margin-bottom: 20px;
+}
+
+/* price plan section end */
+}
+
+/* phone responsive */
+@media(max-width:600px){
+    /* heading section start */
+    .main_heading{
+        background:linear-gradient(#49bcff82,#8d272794),url(image/header\ picture.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 367px;
+        width: 567px;        
+    }
+    .form-control{
+        width:200px;
+    }
+    .button1{
+        margin-left: 10px;
+    }
+    .dropdown-menu{
+        width: 230px;
+        height: 90px;
+        background:white;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .dropdown-item{
+        color:black;
+        border-bottom: 2px solid black;
+        height: 30px;
+        padding:5px;
+    }
+
+.dropdown-item:hover{
+        color:white;
+        background:black;
+    }
+.heading{
+    text-align: left;
+    margin-top: 115px;
+    margin-left: 69px;
+    font-size: 19px;
+    position: relative;
+}
+ .typewrite{
+            color: #343A40;
+            font-size: 28px;
+}
+.button{
+    margin-left: 70px ;
+    margin-top:16px;
+    padding:4px;   
+}
+/* heading section end */
+/* services section start */
+.icon_project{
+    font-size: 50px;
+    margin-top:36px;
+    margin-bottom: 15px;
+}
+.details{
+    width:300px;
+    margin: auto;
+}
+.sec_project{
+    height:290px;
+    background:white;
+    margin-top:25px;
+   text-align: center;
+   margin: auto;
+   margin-top:20px;
+   transition: 0.6s;
+  
+}
+/* services section end */
+/* skill bar design  start*/
+.skills-container{
+    padding-right: 60px;
+    margin-left: 0px;   
+}
+/* skill bar design  end*/
+/* Qualification section start */
+.single_main{
+    margin-left:0px;
+}
+/* Qualification section end */
+/* Price plan section Start */
+.price_project{
+    margin-bottom: 20px;
+}
+/* price plan section end */
+  /* Contact section start */
+
+.form_response{
+margin: auto;
+}
+.contacts {
+    text-align: left;
+    list-style-type: none;
+    margin-left: -16px;
+}
+.contacts li a{
+    color:white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    text-decoration: none;
+}
+  /* Contact section end */
+  /* footer section start */
+  .footer_col{
+      border-bottom: 1px solid white;
+  }
+  .footer_row{
+    border-bottom: none;
+    }
+    .copyright{
+        border-top: 1px solid white;
+    }
+  /* footer section end */
+}
+

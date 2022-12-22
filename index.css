@@ -1,0 +1,569 @@
+
+body{
+    background:black;
+    scroll-behavior: smooth;
+    }
+    /* heading section start */
+    .nav-link{
+        font-size: 18px;
+        font-family:'Comfortaa', cursive;
+        font-weight: 400;
+    }
+    .main_heading{
+        background:linear-gradient(#49bcff82,#8d272794),url(image/header\ picture.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        overflow: hidden;
+    }
+    .top_heading{
+        top:0px;
+        position: sticky;
+        background:black;
+       
+       
+    }
+    .heading{
+    text-align: left;
+    margin-top: 243px;
+    margin-left: 450px;
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+    }
+    .typewrite{
+        color: #343A40;
+        font-size: 55px;
+       
+    }
+    .button{
+        margin-left: 451px ;
+        margin-top: 34px;
+        padding: 12px;
+        font-family:'Roboto', sans-serif ;
+    }
+    .button a{
+        text-decoration: none;
+        color: white;
+    }
+    .dropdown-item{
+        border-bottom:2px solid white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        transition: 0.2s;
+    }
+    .dropdown-item:hover{
+    border-bottom:2px solid black; 
+    }
+    .dropdown-item:last-child{
+        border: none;
+    
+    }
+    .dropdown-menu{
+        width: 230px;
+        height: 106px;
+        background:black;
+        
+    }
+    .icon_btn{
+        background:white;
+    }
+    .form-control{
+        width: 200px;
+    }
+    .currently_active{
+        display:none;  
+    }
+    /* heading section end */
+    /* service section start */
+    .main_sec_heading{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
+    }
+    .sec_heading{
+        border-bottom: 2px solid #C82333;
+        width:290px;
+        padding-bottom: 7px;
+        margin:auto;
+    font-family: 'Comfortaa', cursive;}
+    .sec-section{
+       padding-bottom: 8px;
+       background:black;
+    }
+    .sec_project{
+        height: 386px;
+        background:white;
+        margin-top:25px;
+       text-align: center;
+       margin: auto;
+       margin-top:20px;
+       transition: 0.6s;
+    border-radius: 20px;
+    }
+    .sec_project:hover{
+        background:#C82333;
+        color:white;
+    }
+    .sec_project:hover .learn_btnn{
+    color: white;
+    }
+    .sec_project:hover h5{
+        color:white;
+    }
+    .sec_project:first-child{
+        background:#C82333;
+        color:white
+    }
+    .sec_project:first-child:hover .learn_btn{
+    color:black;
+    }
+    .sec_project:first-child h5{
+        color:white;
+    }
+    .sec_project:first-child:hover{
+        background:white;
+        color:black;
+    }
+    .sec_project:first-child:hover h5{
+        color:black;
+    }
+    .sec_project h5{
+        color:black;
+        font-size: 25px;
+        transition: 0.6s;
+        font-family: 'Roboto', sans-serif;
+    }
+    .icon_project{
+        font-size: 80px;
+        margin-top:36px;
+        margin-bottom: 15px;
+    }
+    .learn_btnn{
+        text-decoration: none;
+        padding: 5px;
+        color: black;
+        transition: 0.6s;
+        margin-top: 8px;
+    }
+    .learn_btn i{
+        margin-top: 2px;
+    }
+    .learn_btn{
+        text-decoration: none;
+        padding: 5px;
+        color: white;
+        transition: 0.6s;
+        margin-top: 8px;
+    }
+    .learn_btn i{
+        margin-top: 2px;
+    }
+    /* service section end */
+    /* Price plan section Start */
+    .price_project{
+        background: white;
+        text-align: left;
+        transition: 0.6s;
+        border-radius: 20px;
+        padding-bottom: 27px;
+        margin: auto;
+    }
+    
+    .singleprice h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+       padding-top: 19px;
+    }
+    .singleprice h1{
+        font-size: 26px;
+        font-family:'Roboto', sans-serif;
+    }
+    .pricelist{
+        list-style-type: none;
+        text-align: left;
+    }
+    .pricelist li{
+        line-height: 32px;
+        text-align: left;
+        font-size: 15px;
+       
+    }
+    .pricelist li i{
+        width: 20px;
+        margin-left: -33px;
+    }
+    
+    
+    /* price plan section end */
+    /* skill bar design start */
+    .skills_details{
+        text-align: left;
+        color: white;
+        margin-top: 30px;
+        line-height: 30px;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 8px;
+        transition: 0.6s;
+    }
+    .skills_details:hover{
+        background:#C82333;
+        border-color:#343A40;
+    }
+    .skills_section{
+        background: black;
+    }
+    .skills_bar{
+        margin-top: 52px;
+    }
+    
+    .skills-container{
+        padding-right: 0px;
+        margin-left: 88px; 
+        padding-bottom: 20px;
+    
+    }
+    .skills-container li{
+        list-style: none;
+        font-weight: bolder;
+        margin: 30px 10px;
+        position: relative;
+        text-transform: uppercase;
+        color: white;
+        font-size: 12px;
+        font-family: 'Comfortaa', cursive;
+    }
+    .skills-container li::before{
+       content: '';
+       position: absolute;
+       top: calc(100% + 5px);
+       left: 0;
+       padding: 6px 0px;
+       width: 100%;
+       height: 10px;
+       background-color:#D2D4D5;
+       border-radius: 1000px;
+    
+    }
+    .skills-container li::after{
+        content: '';
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 0;
+        padding: 6px 0px;
+        width: 0;
+        height: 10px;
+        background-color:#C82333;
+        border-radius: 1000px;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+     }
+     .skills-container li.html::after{
+         animation-name: html;
+     }
+     @keyframes html{
+         to{
+             width: 90%;
+         }
+     }
+     .skills-container li.css::after{
+        animation-name: css;
+     }
+     @keyframes css{
+         to{
+             width: 80%;
+         }
+     }
+     .skills-container li.bootstrap::after{
+         animation-name: bs;
+      }
+      @keyframes bs{
+          to{
+              width: 85%;
+          }
+      }
+     .skills-container li.js::after{
+        animation-name: js;
+     }
+     @keyframes js{
+         to{
+             width: 75%;
+         }
+     }
+     .skills-container li.jquery::after{
+         animation-name: jq;
+      }
+      @keyframes jq{
+          to{
+              width: 80%;
+          }
+      }
+     .skills-container li.wordpress::after{
+        animation-name: wordpress;
+     }
+     @keyframes wordpress{
+         to{
+             width: 85%;
+         }
+     }
+     /* skill bar design end */
+     /* Qualification section start */
+     .q_section{
+         
+         margin-top:10px;  
+    }
+    .q_section_single{
+        border: 1px solid white;
+        padding:25px;
+        background: white;
+        border-radius:30px;
+        transition: 0.6s;
+    }
+    .q_section_single:hover{
+        background: #C82333;
+        border-color: #C82333;
+    }
+    .q_section_single:hover.q_section_single h5{ 
+        color:white;
+    }
+    .q_section_single:hover.q_section_single p{ 
+        color:white;
+    }
+    .q_section_single h5{
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        color:black;
+        line-height: 32px;
+        font-size: 23px;
+    }
+    .q_section_single p{
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        color:black;
+        line-height:22px;  
+    }
+    .single_main{
+        margin-left:580px;
+        background:#C82333;
+        border-color: #C82333;
+    }
+    .single_main p{
+        color:white;
+    }
+    .single_main h5{
+        color:white;
+    }
+    .single_main:hover{
+        background:white;
+        border-color: white;
+    }
+    .single_main:hover.single_main h5{
+        color:black;
+    }
+    .single_main:hover.single_main p{
+        color:black;
+    }
+    
+      /* Qualification section end */
+      /* about section start */
+    
+    .about{
+        margin: auto;
+    
+    }
+    .about_details{
+        overflow: hidden;
+        width: 326px;
+        height: 252px;
+        border-radius:22px;
+        margin: auto;
+        margin-top:10px ;
+    }
+    .about_details img{
+        width: 326px;
+        height: 252px;
+        transition: 0.6s;
+        margin-top:0px;  
+    }
+    .about_details img:hover{
+        transform: scale(1.1);   
+    } 
+    .cv_btn{
+        border-radius: 15px;
+    }
+    .cv_btn a{
+        text-decoration: none;
+        color:white;
+    }
+      /* about section end */
+      /* Contact section start */
+    .form_response{
+        width: 450px;
+    
+        
+    }
+    #form{
+        background: white;
+        width: 320px;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+        font-family: 'Comfortaa', cursive;
+    }
+    #form input{
+        width:258px;
+        padding:6px 6px;
+        margin-bottom: 13px;
+    }
+    #text{
+        width: 257px;
+     text-align: left;
+     margin-bottom: 8px;
+    }
+    #to_email{
+        display: block;
+        text-align: left;
+        margin-left: 12px; 
+        margin-bottom: 5px; 
+    }
+    #to_email_add{
+        display: block;
+        text-align: left;
+        margin-left: 12px;
+        border: 1px solid black;    
+        padding:6px 6px;
+        width:255px;
+    }
+    .send_btn{
+        width: 258px;
+        font-family: 'Comfortaa', cursive;
+    }
+    .other_contact{
+        width:400px;
+        margin: auto;
+    }
+    .contacts{
+    text-align: left;
+    list-style-type: none;
+    }
+    .contacts h5{
+        color: white;
+        font-size: 28px;
+        border-bottom: 1px solid #C82333;
+        padding:10px 0px;
+        font-family: 'Comfortaa', cursive;
+    }
+    .contacts p{
+        color: white;
+        border-bottom: 1px solid #C82333;
+        padding-bottom: 8px;
+        font-family: 'Comfortaa', cursive;
+    }
+    .contacts li{
+        margin: 20px 0px;
+    }
+    
+    .contacts li a{
+        color:white;
+        font-family: 'Comfortaa', cursive;
+        font-size: 19px;
+        text-decoration: none;
+        transition: 0.6s;
+    }
+    .contacts li a:hover{
+        color: #C82333;
+    }
+    /* Contact section end */
+    /* footer section start */
+    .footer_section{
+        margin-top:20px;
+        background:#ad0e0ecf;
+        text-align: center;
+    }
+    .footer_row{
+    border-bottom: 1px solid white;
+    }
+    .footer_col{
+        margin: auto;
+        margin-top: 30px; 
+        text-align: left;   
+    }
+    .footer_col p{
+        color: white;
+        margin-left:68px;
+        line-height: 25px;
+        font-family:'Montserrat', sans-serif;
+    }
+    .footer_heading{
+        font-size: 22px;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        transition: 0.6s;
+        margin-left: 68px;
+    }
+    .footer_col:hover h4{
+        color:black;
+    }
+    .footer_col ul h4{
+        font-size: 22px;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        transition: 0.6s;
+      
+    }
+    .footer_col ul{
+        margin-left: 29px;
+        list-style-type: none;
+    }
+    .footer_col ul li{
+        margin-top: 10px;
+        border-bottom: 1px solid white;
+        padding-bottom: 8px;
+    }
+    .footer_col ul li:last-child{
+        border: none;
+    }
+    .footer_col ul li a{
+        text-decoration: none;
+        color: white;
+        transition: 0.6s;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .footer_col ul li a:hover{
+        color: black;
+    }
+    .fa-location-dot{
+        margin-left: -16px;
+    }
+    .footer_follow{
+        margin-top:10px;
+        text-align: left;
+    }
+    .footer_follow p{
+    color:white;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    float: left;
+    margin-top: 3px;}
+    .footer_follow a{
+        margin-left: 15px;
+        font-size: 23px;
+        color:white
+    }
+    .copyright p{
+      margin-top: 14px;
+      color: white;
+      font-family: 'Comfortaa', cursive;
+    }
+    
+    /* footer section end */
